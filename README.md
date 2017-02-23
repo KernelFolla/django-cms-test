@@ -15,5 +15,8 @@ mkdir djangocms
 cd djangocms
 pip install djangocms-installer
 djangocms -f -p . helloworld
+python manage.py createsuperuser
+python manage.py runserver
+
 ```
  
